@@ -7,15 +7,14 @@ export default defineConfig({
   },
   routes: [
     // { path: '/', component: '@/pages/index' },
-    
+
     {
       path: '/',
       component: '@/layouts/index',
       routes: [
         { path: '/', component: '@/pages/index' },
-        { path: '/products', component: '@/pages/products' },
-
+        { path: '/user', component: '@/pages/user' },
       ],
-    }, 
+    },
   ],
 });

@@ -6,27 +6,9 @@ const menuList = [
     isPublic: true, // 公开的
   },
   {
-    title: '商品',
-    key: '/products',
-    icon: 'appstore',
-    children: [ // 子菜单列表
-      {
-        title: '品类管理',
-        key: '/category',
-        icon: 'bars'
-      },
-      {
-        title: '商品管理',
-        key: '/product',
-        icon: 'tool'
-      },
-    ]
-  },
-
-  {
     title: '用户管理',
     key: '/user',
-    icon: 'user'
+    icon: 'user',
   },
   {
     title: '角色管理',
@@ -42,19 +24,19 @@ const menuList = [
       {
         title: '柱形图',
         key: '/charts/bar',
-        icon: 'bar-chart'
+        icon: 'bar-chart',
       },
       {
         title: '折线图',
         key: '/charts/line',
-        icon: 'line-chart'
+        icon: 'line-chart',
       },
       {
         title: '饼图',
         key: '/charts/pie',
-        icon: 'pie-chart'
+        icon: 'pie-chart',
       },
-    ]
+    ],
   },
 
   {
@@ -62,6 +44,6 @@ const menuList = [
     key: '/order',
     icon: 'windows',
   },
-]
+];
 
-export default menuList
+export default menuList;
